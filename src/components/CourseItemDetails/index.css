@@ -1,0 +1,46 @@
+.blog-container {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+.blog-info {
+ margin-top:20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width:70%;
+  box-shadow:0px 8px 16px #bfbfbf;
+}
+
+.course-description {
+  font-size: 20px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+.course-title {
+  font-size: 24px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.course-img{
+    width:450px;
+    height:450px;
+}
+
+.course-details{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-left:10px;
+}
+.nav-bar {
+  background-color: #f1f5f9;
+  padding: 25px;
+}
+.logo {
+  width: 165px;
+}
